@@ -17,6 +17,8 @@ public class GameWindow {
 		jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// uniamo il frame e il panel
 		jframe.add(gamePanel);
+		// centra il frame
+		jframe.setLocationRelativeTo(null);
 		// rendiamo visibile il frame
 		jframe.setVisible(true);
 
